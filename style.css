@@ -1,0 +1,30 @@
+:root {
+    --roboto_font: 'Roboto', sans-serif;
+    --playfair_font: 'Playfair Display', serif;
+    --dark_pink: #FF6C63;
+
+}
+
+body {
+    width: 100vw;
+    height: 90vh;
+}
+
+header h1 {
+    font-family: var(--roboto_font);
+    font-weight: bold;
+}
+
+.tagline {
+    font-family: var(--roboto_font);
+    color: var(--dark_pink);
+}
+
+.intro {
+    font-family: var(--playfair_font);
+}
+
+.btn-bd-primary {
+    --bs-btn-bg: var(--dark_pink);
+    --bs-btn-color: var(--bs-white);
+}
